@@ -5,12 +5,21 @@ public class Customer
 {
 	private int customerID;
 	private String firstName;
+	private double credit;
 	
 	public Customer()
 	{
 		
 	}
 	 
+	public double getCredit() {
+		return credit;
+	}
+
+	public void setCredit(double credit) {
+		this.credit = credit;
+	}
+
 	public int getCustomerID() 
 	{
 		return customerID;
